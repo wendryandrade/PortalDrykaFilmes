@@ -1,0 +1,400 @@
+body{
+    color:black !important;
+    font-size: 16px !important;
+    font-family: 'diodrum_roundedmedium' !important;
+    text-align: justify !important;
+}
+
+/*Fontes importadas*/
+@font-face {
+    font-family: 'diodrum_roundedmedium';
+    src: url('../fontes/diodrumrounded-medium-webfont.woff2') format('woff2'),
+         url('../fontes/diodrumrounded-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diodrum_roundedlight';
+    src: url('../fontes/diodrumrounded-light-webfont.woff2') format('woff2'),
+         url('../fontes/diodrumrounded-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'diodrum_roundedregular';
+    src: url('../fontes/diodrumrounded-regular-webfont.woff2') format('woff2'),
+         url('../fontes/diodrumrounded-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typoldbold';
+    src: url('../fontes/typoldbold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.menu-principal{
+    padding: 0.5% !important;
+    padding-top: 1.6% !important;
+    margin: 0 !important;
+    background-color: #c0c0c0 !important;
+    list-style:none !important;
+}
+
+h1{
+    color: black !important;
+    font-size: 31px !important; 
+    text-align: center !important;
+    font-family: 'typoldbold' !important;
+}
+    
+h3{
+    font-size: 26px;
+    font-family: 'diodrum_roundedregular';
+}
+        
+a{
+color: black !important;
+text-decoration: none !important;
+}
+        
+nav{
+text-align: right;
+}
+
+.menu-principal li{
+    display: contents;
+    color:black !important;
+    font-size: 13pt !important;
+    font-family: 'diodrum_roundedmedium' !important;
+}
+
+
+
+/*Imagem logo*/
+#logo {
+    margin-left: -20px;
+}
+
+/*Pesquisar*/
+.pesquisa{
+position: relative;
+background-color: #c0c0c0;
+border:solid 1px;
+border-radius:5px;
+width:150px;
+height:30px;
+padding-left: 10px;
+margin: 8px;
+margin-right: 3px;
+margin-left: 30px;
+
+
+font-family: 'diodrum_roundedmedium';
+font-size:15px;
+}
+
+.texto{
+font-size: 16px;
+text-align: justify;
+}
+
+/*Avaliação*/
+.checked {
+color: orange;
+}
+
+.nchecked {
+color: #c0c0c0;
+}
+
+
+
+
+/*Carousel*/
+.carousel{
+    padding-bottom: -100px;
+    background-color: #dfdfdf;
+}
+
+.descricaofilme{
+    margin-bottom: 60px;
+    margin-right: 12px;
+    min-height: 60px;
+    position: relative;
+    padding-bottom: 4%;
+    padding-top: 50px; 
+    overflow: hidden;
+}
+
+.videofilme{
+    position: relative;
+    padding-bottom: 4%;
+    padding-top: 50px; 
+    overflow: hidden;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #454545;
+}
+
+.carousel  p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'diodrum_roundedmedium';
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+
+
+/*Nav*/
+
+.navegacao {
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+.nav-menu > li {
+    padding: 0 0 0 30px;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    font-family: 'diodrum_roundedregular' !important;
+}
+
+.nav-item{
+    padding-left: 20px !important;
+}
+
+/*Card filmes*/
+#carregarmais{
+    float: right;
+    background-color: #db5e06;
+}
+
+
+/*Caixa Select*/
+.selecaocategoria{
+    font-size: 14px;
+    position: relative;
+    border:solid 1px;
+    border-radius:5px;
+    width:200px;
+    height:30px;
+    padding-left: 10px;
+    margin-right: 1650px;
+    margin-bottom: 40px;
+}
+
+/*Card avaliação*/
+.imgavaliacao{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.bordacard{
+    border: transparent !important;
+}
+
+.titulocard{
+    margin-top: -35px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.dataav{
+    font-size: 14px !important;
+}
+
+
+/*Card Entrevista & MakingOf*/
+.titulo-filme-card{
+    font-size: 17.8px;
+}
+
+.infoentmak{
+    font-size: 13.2px;
+}
+
+.bg{
+    background-color: #dfdfdf;
+}
+
+
+/*Novidades*/
+.img-noticia{
+    height: 193px;
+    width: 290px;
+}
+
+.coluna2{
+    margin-left: 0px;
+}
+
+.titulosobre{
+    margin-top: -133px;
+}
+
+#texto-sobre{
+    margin-top: 10px;
+}
+
+#redessociais{
+    font-size: 26px !important;
+}
+
+.titulo-materia{
+    font-size: 20px !important;
+}
+
+#destaques-noticia{  
+    position: relative;
+    background-color: grey;
+    border:solid 1px;
+    border-radius:20px;
+    width:175px;
+    height:30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 14px !important;
+    color: violet;
+}
+
+
+/*Sobre*/
+.icone-usuario{
+    font-size: 30px !important;
+}
+
+.editorial-icones{
+    font-size: 20px !important;
+}
+
+.icones-redesocial{
+    font-size: 54px !important;
+}
+
+/*Footer*/
+.footer_area{
+    background-color: #c0c0c0;
+    font-family: 'diodrum_roundedregular';
+    text-align: center;
+    font-size: 12.9px;
+}
+
+/*menu ativo*/
+.nav-link:hover{
+    color: #db5e06 !important;
+}
+
+.ativo{
+    color: #db5e06 !important;
+}
+
+/*pesquisa*/
+.caixapesquisa {
+    position: relative;
+    background-color: #c0c0c0;
+    border-radius:5px;
+    width:300px;
+    height:30px;
+    padding-left: 10px;
+    margin: 8px;
+    margin-right: 3px;
+    margin-left: 51px;
+    margin-top: 8px;
+    border-color: grey;
+    
+    
+    font-family: 'diodrum_roundedmedium';
+    font-size:15px;
+}
+
+.btnbuscar{
+    border-radius: 5px;
+    width:100px;
+    height:40px;
+    margin-top: 3px;
+    background-color: #db5e06 !important;
+    border-color: #db5e06 !important;
+}
+
+.btnbuscar:hover{
+    background-color: black !important;
+    color: white;
+    border-color: black !important;
+}
+
+.btndetalhes{
+    background-color: #db5e06 !important;
+    border-color: #db5e06 !important;
+}
+
+.btndetalhes:hover{
+    background-color: #db5e06 !important;
+    color: white !important;
+}
+
+.btndetalhes:focus{
+    background-color: #db5e06 !important;
+    color: white !important;
+}
+
+#pesqfilme{
+    font-size: 22px;
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-right: -30px;
+}
+
+#detalheslançamentos{
+    color: #dfdfdf !important;
+    margin-top: -130px;
+    height: 35px;
+    width: 115px;
+    font-size: 15px;
+}
+
+#detalheslançamentos:hover{
+    color:black !important;
+}

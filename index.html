@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Dryka Filmes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="overflow-x:hidden">
+
+    <!-- Menu <li><img class="logo" src="https://source.unsplash.com/random/150x150?sig=3" alt="Logo"></li>-->
+    
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light navegacao">
+
+            <div class="container">
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/drykafilmes.png" height="85" id="logo"> 
+                </a>
+                
+                <button class="navbar-toggler custom" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+
+                <div id="menu" class="collapse navbar-collapse">
+                    
+                    <ul class="navbar-nav ml-auto text-light nav-menu">
+                        <li class="nav-item">
+                            <a id="lançamentos" href="#lançamentosmenu" class="nav-link ativo text-black font-weight-bold">lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="emdestaque" href="#emdestaquemenu" class="nav-link text-black font-weight-bold">em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="avaliações" href="#avaliaçõesmenu" class="nav-link text-black font-weight-bold">avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="entrevistasemakingof" href="#entrevistasemakingofmenu" class="nav-link text-black font-weight-bold">entrevistas & makingof</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="novidades" href="#novidadesmenu" class="nav-link text-black font-weight-bold">novidades</a>
+                        </li>
+                    </ul>
+
+                    
+                    <li class="navbar-brand">
+                        <a href="pesquisa.html"><input  class="nav-link pesquisa text-black font-weight-bold" type="text" placeholder="Pesquisar filme"></a>
+                        <!--<img src="http://4.bp.blogspot.com/-4MYBYE0i0Xk/VEQYlljvriI/AAAAAAAAAlQ/_TRkRG5EX1c/s1600/search-icon.png" id="btnBusca" alt="Buscar"/>-->
+                    
+                        <!--<div>
+                            <ul class="lista">
+                                <li nome="1917" style>
+                                    
+                                </li>
+                                </span>
+                            </ul>
+                            </div>-->
+                        
+
+                    </li>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>        
+
+        <!--Carousel Lançamentos-->
+        <div id="lançamentosmenu" class="row carousel">
+
+            <div class="col-12">            
+
+                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" background-color="#0000FF" >  
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleControls" data-slide-to="1" ></li>
+                        <li data-target="#carouselExampleControls" data-slide-to="2" ></li>
+                        <li data-target="#carouselExampleControls" data-slide-to="3" ></li>
+                    </ol>
+
+                    <div class="carousel-inner px-4">
+
+                        <br><br><br><br><br>
+                        <h1 class="titulopag pt-3 col-12" >Lançamentos</h1>
+
+                        <!--Filme 1-->
+                        <div class="carousel-item active"> 
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-lg-6 videofilme"> 
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rcV1I-397Wg" frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; 
+                                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="descricaofilme">
+                                        <h3>Enola Holmes</h3>
+                                        <br>
+                                        <p class="text-justify"><b>Sinopse: </b>Enola Holmes é um filme de mistério de 2020, baseado na série literária homônima de Nancy Springer, 
+                                            dirigido por Harry Bradbeer e escrito por Jack Thorne, onde conta a história de Enola Holmes (Millie Bobby Brown), 
+                                            irmã do renomado detetive Sherlock Holmes, inicia uma investigação para descobrir o 
+                                            paradeiro de sua desaparecida mãe, ao mesmo tempo em que luta contra os anseios de uma sociedade conservadora.</p>
+                                        <br>
+                                        <p><b>Diretor: </b>Harry Bradbeer</p>
+                                        <p><b>Roteiro: </b>Jack Thorne</p>
+                                        <p><b>Estreia: </b>23 de setembro de 2020</p>
+                                        
+                                        <br>
+                                        <p><b>Elenco:</b>
+                                            <span>Millie Bobby Brown |</span>
+                                            <span>Sam Claflin |</span>
+                                            <span>Henry Cavill |</span>
+                                            <span>Helena Bonham Carter |</span>
+                                            <span>Louis Partridge </span>
+                                        </p>
+                                        
+                                        <br><p>
+                                            <b>Avaliação:</b>  
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star nchecked"></span>  
+                                        </p>
+                                    </div>  
+                                    
+                                    <a href="https://www.imdb.com/title/tt7846844/" id=detalheslançamentos class="btn btndetalhes btn-primary" target="_blank">Ver detalhes</a>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Filme 2-->
+                        <div class="carousel-item"> 
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-lg-6 videofilme"> 
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lWImVp38gy4" frameborder="0" allow="accelerometer; 
+                                        autoplay; clipboard-write; 
+                                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="descricaofilme">
+                                        <h3>A Barraca do Beijo 2</h3>
+                                        </br>
+                                        <p class="text-justify"><b>Sinopse: </b>Em A Barraca do Beijo 2, Elle (Joey King) e Noah (Jacob Elordi) tiveram o verão mais
+                                            romântico de suas vidas. Entretanto, quando ele segue para Harvard, ela precisará lidar com um relacionamento a distância, 
+                                            a expectativa de entrar na faculdade com seu melhor amigo, 
+                                            Lee (Joel Courtney), e a amizade com o novo colega de classe Marco (Taylor Perez). </p>
+                                        <br>
+                                        <p><b>Diretor: </b>Vince Marcello </p>
+                                        <p><b>Roteiro: </b>Vince Marcello e Jay Arnold</p>
+                                        <p><b>Estreia: </b>24 de julho de 2020</p>
+                                            
+                                        <br>
+                                        <p><b>Elenco:</b>
+                                            <span>Joey King |</span>
+                                            <span>Joel Courtney |</span>
+                                            <span>Jacob Elordi |</span>
+                                            <span>Meganne Young |</span>
+                                            <br><span>Molly Ringwald |</span>
+                                            <span>Camilla Wolfson |</span>
+                                            <span>Maisie Richardson-Sellers |</span>
+                                        </p>
+                                        
+                                        <br><p>
+                                            <b>Avaliação:</b>  
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star nchecked"></span>  
+                                        </p>
+                                    </div>    
+                                    
+                                    <a href="https://www.imdb.com/title/tt9784456/" id=detalheslançamentos class="btn btndetalhes btn-primary" target="_blank">Ver detalhes</a>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <!--Filme 3-->
+                        <div class="carousel-item"> 
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-lg-6 videofilme"> 
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ev5RBG_Src" frameborder="0" allow="accelerometer; autoplay; 
+                                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="descricaofilme">
+                                        <h3>Amor Garantido</h3>
+                                        </br>
+                                        <p class="text-justify"><b>Sinopse: </b> Em Amor Garantido, para salvar seu pequeno escritório de advocacia, 
+                                            a séria advogada Susan (Rachael Leigh Cook) aceita pegar o caso de Nick (Damon Wayans Jr.), 
+                                            um cliente novo e encantador que quer processar um site de namoro que garante encontrar seu amor. 
+                                            Mas, à medida que o caso esquenta, também aumentam os sentimentos de Susan e Nick.</p>
+                                        <br>
+                                        <p><b>Diretor: </b>Mark Steven Johnson </p>
+                                        <p><b>Roteiro: </b>Hilary Galanoy e Elizabeth Hackett</p>
+                                        <p><b>Estreia: </b>3 de setembro de 2020</p>
+                                            
+                                        <br>
+                                        <p><b>Elenco:</b>
+                                            <span>Rachael Leigh Cook |</span>
+                                            <span>Damon Wayans Jr. |</span>
+                                            <span>Heather Graham |</span>
+                                            <span>Lisa Durupt |</span>
+                                            <br><span>Sebastian Billingsley-Rodriguez |</span>
+                                            <span>Milo Shandel</span>
+                                        </p>
+                                        
+                                        <br><p>
+                                            <b>Avaliação:</b>  
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star nchecked"></span>  
+                                        </p>
+                                    </div> 
+                                    <a href="https://www.imdb.com/title/tt11100856/" id=detalheslançamentos class="btn btndetalhes btn-primary" target="_blank">Ver detalhes</a>    
+                                </div>
+                            </div>
+                        </div> 
+
+
+                        <!--Filme 4-->
+                        <div class="carousel-item"> 
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-lg-6 videofilme"> 
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ayuqionmMts" frameborder="0" allow="accelerometer; autoplay; 
+                                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                    <div class="descricaofilme">
+                                        <h3>Dançarina Imperfeita</h3>
+                                        </br>
+                                        <p class="text-justify"><b>Sinopse: </b> Dançarina Imperfeita acompanha Quinn Ackerman (Sabrina Carpenter) que tem sua 
+                                            admissão na faculdade de seus sonhos dependendo de sua performance em uma competição de dança. 
+                                            Agora, ela precisa formar um grupo com os melhores dançarinos do esquadrão da escola e, principalmente, aprender a dançar.</p>
+                                        <br>
+                                        <p><b>Diretor: </b>Laura Terruso </p>
+                                        <p><b>Roteiro: </b>Laura Terruso e Alison Peck</p>
+                                        <p><b>Estreia: </b>7 de agosto de 2020</p>
+                                            
+                                        <br>
+                                        <p><b>Elenco:</b>
+                                            <span>Sabrina Carpenter |</span>
+                                            <span>Jordan Fisher |</span>
+                                            <span>Liza Koshy |</span>
+                                            <span>Keiynan Lonsdale |</span>
+                                            <br><span>Drew Ray Tanner |</span>
+                                            <span>Michelle Buteau |</span>
+                                            <span>Naomi Snieckus </span>
+                                        </p>
+                                        
+                                        <br><p>
+                                            <b>Avaliação:</b>  
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>  
+                                        </p>
+                                    </div>     
+                                    <a href="https://www.imdb.com/title/tt10276470/" id=detalheslançamentos class="btn btndetalhes btn-primary" target="_blank">Ver detalhes</a>
+                                </div>
+                            </div>
+                        </div> 
+
+
+                    </div>
+                </div>   
+            </div>    
+        </div>
+
+
+        <!--Card Em destaque-->
+
+           </br>
+           
+           <div id="emdestaquemenu" class="container main">
+                <div class="row">
+
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-6"> 
+                            <br><br><br><br><br>
+                            <h1 class="titulopag text-left pt-3 col-12" >Em destaque</h1>
+                        <br>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-lg-6">
+                            <br><br><br><br><br>
+                            <select class="selecaocategoria">
+                                <option>Categoria: TODOS</option>
+                                <option>Aventura</option>
+                                <option>Romance</option>
+                                <option>Comédia</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+
+                            <!--Card 1-->
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                
+                                <div class="card">
+                                    <a href="https://www.imdb.com/title/tt7984734/">
+                                        <img src="imagens/ofarol.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!--Card 2-->
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                
+                                <div class="card">
+                                    <a href="https://www.imdb.com/title/tt9071322">
+                                        <img src="imagens/oprecodaverdade.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!--Card 3-->
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                
+                                <div class="card">
+                                    <a href="https://www.imdb.com/title/tt8579674/">
+                                        <img src="imagens/1917.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+
+                            </div>
+                            
+                            <!--Card 4-->
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                
+                                <div class="card">
+                                    <a href="https://www.imdb.com/title/tt9777644/">
+                                        <img src="imagens/destacamentoblood.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                
+                            </div>   
+                            
+                            <div class="card-body">
+                                <a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250" class="btn btn-warning" id="carregarmais">+ Carregar mais filmes</a>
+                            </div>
+                    </div>
+                
+                </div>
+
+            </div>
+
+
+
+            <!--Últimas avaliações-->
+            <div id="avaliaçõesmenu" class="container main">
+                <div class="row">
+                        <h1 class="titulopag text-left pt-3 col-12" >
+                        <br><br><br>
+                            Últimas avaliações
+                        <br>
+                        </h1>
+
+                    <!--Card 1-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <br>
+                        <div class="card bordacard">
+                            <div class="card-body">
+                                
+                            <img src="imagens/avaliacao1.jpg" class="imgavaliacao">
+                              <h5 class="card-title text-right titulocard">Pedro F.</h5>
+                              <br><br><p class="card-text text-justify">
+                                Amei. Um filme leve, muito gostoso e intrigante de assistir. As atuações são muito boas, amei os personagens da Millie Bobby Brown 
+                                e do Louis Patridge, os cenários e os figurinos são muito bem feitos. O filme tem alguns clichês, 
+                                mas não achei que foi nada que prejudicou minha experiência. 
+                                Já estou ansioso para mais histórias de Enola Holmes!
+                              </p>
+                              <p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                              </p> 
+
+                              <b class="dataav"> 27 set. 2020</b>
+
+                            </div>
+                          </div>
+
+                    </div>    
+
+                    <!--Card 2-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <br>
+                        <div class="card bordacard">
+                            <div class="card-body">
+                                
+                            <img src="imagens/avaliacao2.jpg" class="imgavaliacao">
+                              <h5 class="card-title text-right titulocard">Dennys R.</h5>
+                              <br><br><p class="card-text text-justify">
+                                Esse segundo filme apresenta maior maturidade da personagem principal, que fica em situações onde suas ações possuem 
+                                maior peso e apresenta de fato as consequências de nossos atos. Um ponto a se observar é que a barraca em si é tratada 
+                                de uma forma mais superficial, no entanto ainda assim conseguiu manter sua essência, e de presente ainda temos um final 
+                                totalmente aberto a uma possível continuação que por sinal será bem difícil de executar... 
+                                Barraca do Beijo 2 é sim superior ao seu antecessor.
+                              </p>
+                              <p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star nchecked"></span>
+                              </p> 
+
+                              <b class="dataav"> 26 jul. 2020</b>
+
+                            </div>
+                          </div>
+
+                    </div> 
+
+
+                    <!--Card 3-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <br>
+                        <div class="card bordacard">
+                            <div class="card-body">
+                                
+                            <img src="imagens/avaliacao3.jpg" class="imgavaliacao">
+                              <h5 class="card-title text-right titulocard">Vitor Araujo</h5>
+                              <br><br><p class="card-text text-justify">
+                                Filme romantico sobre um processo de um aplicativo de encontros por propaganda enganosa, ou não. 
+                                Um filme bem leve, engraçado a nivel cuti cuti. Bem previsivel, rápido e objetivo. 
+                                Um bom filme para quem sabe o que quer. Não deixa a desejar.
+                              </p>
+                              <p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star nchecked"></span>
+                                <span class="fa fa-star nchecked"></span>
+                              </p> 
+
+                              <b class="dataav"> 14 set. 2020</b>
+
+                            </div>
+                          </div>
+                    </div>
+
+                    
+                    <!--Card 4-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                        <br>
+                        <div class="card bordacard">
+                            <div class="card-body">
+                                
+                            <img src="imagens/avaliacao4.jpg" class="imgavaliacao">
+                              <h5 class="card-title text-right titulocard">Phellype M.</h5>
+                              <br><br><p class="card-text text-justify">
+                                Mais uma divertida comédia musical! Com um elenco jovem e com alguns rostos conhecidos! A receita é a mesma dos outros filmes de dança, 
+                                não é um espetáculo de coreografias, porém funciona bem, como uma comédia dramática! 
+                                Trilha sonora com músicas populares e até nostálgicas de outras produções! É uma boa opção para uma "sessão da tarde".
+                              </p>
+                              <p>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star nchecked"></span>
+                              </p> 
+
+                                <b class="dataav">21 ago. 2020</b>
+
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250" class="btn btn-warning" id="carregarmais">+ Carregar mais avaliações</a>
+                    </div>
+
+                    
+                    <br><br>
+                
+                </div>
+                
+                <br><br>
+            </div>
+            
+
+            <!--Card Entrevistas & MakingOf-->
+
+            
+            <div id="entrevistasemakingofmenu" class="bg">
+                <div class="container main">
+                    <br>
+                    <div class="row">
+                        <h1 class="titulopag text-left pt-3 col-12" >
+                        <br><br><br>
+                            Entrevistas & MakingOf
+                            <br><br>
+                        </h1>
+                        <br><br><br><br>
+
+                        <!--Card 1-->
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KVvavpmYLoU" frameborder="0" allow="accelerometer; autoplay; 
+                                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title titulo-filme-card"><b>Filme: </b>Enola Holmes</h5>
+                                <p class="card-text infoentmak">
+                                    <b>Diretor: </b> Harry Bradbeer
+                                    <br><b>Roteiro: </b> Jack Thorne
+                                    <br><b>Estreia: </b> 23 set. 2020
+                                </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--Card 2-->
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C_nwkTAstJg" frameborder="0" allow="accelerometer; autoplay; 
+                                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title titulo-filme-card"><b>Filme: </b>A Barraca do Beijo 2</h5>
+                                <p class="card-text infoentmak">
+                                    <b>Diretor: </b> Vince Marcello
+                                    <br><b>Roteiro: </b> Vince Marcello e Jay Arnold
+                                    <br><b>Estreia: </b> 24 jul. 2020
+                                </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--Card 3-->
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i3JLyc3eG-Q" frameborder="0" allow="accelerometer; autoplay; 
+                                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title titulo-filme-card"><b>Filme: </b>O Farol</h5>
+                                <p class="card-text infoentmak">
+                                    <b>Diretor: </b> Robert Eggers
+                                    <br><b>Roteiro: </b>Robert E. e Max Eggers
+                                    <br><b>Estreia: </b> 2 jan. 2020
+                                </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--Card 4-->
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe height="200" src="https://www.youtube.com/embed/wIAr95IYyGI" 
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title titulo-filme-card"><b>Filme: </b>1917</h5>
+                                <p class="card-text infoentmak">
+                                    <b>Diretor: </b> Sam Mendes
+                                    <br><b>Roteiro: </b>Krysty Wilson-Cairns
+                                    <br><b>Estreia: </b> 18 jan. 2020
+                                </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    
+                        
+                        <div class="card-body">
+                            <a href="https://www.imdb.com/oscars/?ref_=nv_ev_acd" class="btn btn-warning" id="carregarmais">+ Carregar mais entrevistas</a>
+                            <br><br>
+                        </div>
+                    </div>
+                    
+                    <br><br>
+                </div>
+            </div>
+
+
+            <!--Novidades, Sobre e Editorial-->
+            
+            <div id="novidadesmenu" class="container main">
+                <br>
+                <div class="row">
+                    
+                    <h1 class="titulopag text-left pt-3 col-12" >
+                        
+                        <br><br><br>
+                        Notícias
+                        <br><br>
+                    </h1>
+                        <br><br><br><br>
+
+                    <div class="col-8">
+
+                        <div class="row">
+                        
+                            <div class="col-5">
+                                <img src="noticias/noticia1.jpg" class="img-noticia img-fluid">
+                            </div>
+
+                            <div class="col-7">
+                            
+                            <h3 class="titulo-materia">
+                                <b>
+                                    <a>Homem-Aranha 3 pode ter retorno de Jamie Foxx como Electro</a>
+                                </b>
+                            </h3>
+                            
+                            Um vilão dos tempos de Andrew Garfield na Sony pode aparecer no filme de Tom Holland na Marvel.
+
+                            Um dos quatro filmes planejados pela Marvel para 2021, Homem-Aranha 3 promete ter uma surpresa para os fãs do herói. 
+                            Segundo informações do portal The Hollywood Reporter, 
+                            Jamie Foxx está negociando para reprisar o papel do vilão Electro no projeto estrelado por Tom Holland.
+
+                            <div>
+                                <a class="btn" id="destaques-noticia">Pré-lançamento</a>
+                            </div>
+
+                            </div>
+                            <br><br>
+                        </div><hr color=grey>
+                        
+                        <div class="row">
+                        
+                            <div class="col-5">
+                                <img src="noticias/noticia2.jpg" class="img-noticia img-fluid">
+                            </div>
+
+                            <div class="col-7">
+
+                            <h3 class="titulo-materia">
+                                <b>
+                                    <a>Lançamentos da Amazon Prime Video em Outubro</a> 
+                                </b>
+                            </h3>
+
+                            Quatro filmes de terror produzidos pela Blumhouse — incluindo um com Joey King — chegam ao catálogo do Prime Video neste mês.
+
+                            A Amazon Prime Video preparou lançamentos bem assustadores para o mês do Halloween. 
+                            Logo de cara, o serviço de streaming disponibiliza The Rental, filme de terror dirigido por Dave Franco. 
+                            Inclusive, o longa já estreou lá fora e vem dividindo as opiniões do público por sua temática polêmica.
+
+                            <div>
+                                <a class="btn" id="destaques-noticia">Lançamentos</a>
+                                <a class="btn" id="destaques-noticia">Temática Polêmica</a>
+                            </div>
+
+                            </div>
+                            <br><br>
+                        </div><hr color=grey>
+
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="noticias/noticia3.jpg" class="img-noticia img-fluid">
+                            </div>
+
+                            <div class="col-7">
+
+                            <h3 class="titulo-materia">
+                                <b>
+                                    <a>Enola Holmes e outras produções que quebram a quarta parede</a>
+                                </b>
+                            </h3>
+
+                            Após o recentemente lançamento da Netflix, as produções que quebram a quarta parede voltaram a ser pauta!
+
+                            Recentemente estreou na Netflix o longa Enola Holmes, versão um pouco mais diferente daquilo que já havíamos visto do 
+                            Sherlock Holmes nas telonas até agora. Dentre as maiores novidades estão no fato da trama não ser focado exclusivamente 
+                            nele desta vez e também da protagonista vivida por Millie Bobby Brown utilizar bastante do recurso de "quebra da quarta parede".
+
+                            <div>
+                            <a class="btn" id="destaques-noticia">Quebra da Quarta Parede</a>
+                            </div>
+
+                            </div>
+                            <br><br>
+                        </div><br><br>
+
+                    </div>
+
+                    <div class="col-4">
+                        
+                        <h1 class="titulosobre text-left pt-3">
+                            <br>
+                            Sobre<br>
+                        </h1>
+                        <br>
+                        
+                        <div class="row">
+                            
+                            <div class="col-12" id="texto-sobre">
+                                O Portal Dryka Filmes é um portal de filmes contendo os lançamentos com trailers e informações sobre o filme, 
+                                filmes em destaque, avaliações de usuários sobre diversos filmes, entrevistas e makingof e novidades do mundo do cinema.
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                
+                                <br>
+                                <h1 class="text-left pt-3">
+                                    Editorial
+                                </h1>
+
+                                    <i class="fa fa-user icone-usuario"></i>
+                                    <b>&nbsp;Redação:</b> Wendrya Andrade Oliveira</a> 
+
+                                    <br><i class="fa fa-user icone-usuario"></i>
+                                    <b>&nbsp;Pesquisa:</b> Wendrya Andrade Oliveira
+
+                                    <br><i class="fa fa-user icone-usuario"></i>
+                                    <b>&nbsp;Gerente Geral:</b> Wendrya Andrade Oliveira 
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+
+                                <br>
+                                <h1 class="text-left pt-3" id="redessociais">
+                                    redes sociais:
+                                </h1>
+
+                                <a href="https://www.facebook.com/wendrya.andrade"><i class="fa fa-facebook-square icones-redesocial"></i></a>
+                                &nbsp;<a href="https://twitter.com/wendryandrade"><i class="fa fa-twitter icones-redesocial"></i></a>
+                                &nbsp;<a href="https://www.instagram.com/wendryandrade/"><i class="fa fa-instagram icones-redesocial"></i></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer class="footer">
+
+        <div class="row">
+
+            <div class="col-12 footer_area">
+                Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - 
+                <b>ICEI PUC Minas</b>
+            
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="navbar-brand">
+                        <img src="imagens/drykafilmes.png" height="70" id="logo"> 
+                    </a>
+            </div>
+
+        </div>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+
+        $('#lançamentos').click(function(){
+        $('#lançamentos').addClass('ativo');
+        $('#emdestaque').removeClass('ativo');
+        $('#avaliações').removeClass('ativo');
+        $('#entrevistasemakingof').removeClass('ativo');
+        $('#novidades').removeClass('ativo');
+        });
+
+        $('#emdestaque').click(function(){
+        $('#emdestaque').addClass('ativo');
+        $('#lançamentos').removeClass('ativo');
+        $('#avaliações').removeClass('ativo');
+        $('#entrevistasemakingof').removeClass('ativo');
+        $('#novidades').removeClass('ativo');
+        });
+
+        $('#avaliações').click(function(){
+        $('#avaliações').addClass('ativo');
+        $('#lançamentos').removeClass('ativo');
+        $('#emdestaque').removeClass('ativo');
+        $('#entrevistasemakingof').removeClass('ativo');
+        $('#novidades').removeClass('ativo');
+        });
+
+        $('#entrevistasemakingof').click(function(){
+        $('#entrevistasemakingof').addClass('ativo');
+        $('#lançamentos').removeClass('ativo');
+        $('#emdestaque').removeClass('ativo');
+        $('#avaliações').removeClass('ativo');
+        $('#novidades').removeClass('ativo');
+        });
+
+        $('#novidades').click(function(){
+        $('#novidades').addClass('ativo');
+        $('#lançamentos').removeClass('ativo');
+        $('#emdestaque').removeClass('ativo');
+        $('#avaliações').removeClass('ativo');
+        $('#entrevistasemakingof').removeClass('ativo');
+        });
+
+    </script>
+
+    <script src="./pesquisa.js"></script>
+
+</body>
